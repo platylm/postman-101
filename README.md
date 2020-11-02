@@ -1,12 +1,13 @@
 # API Product list
 
-> Method : GET
+`Method : GET`
 
-`localhost:8000/api/v1/product`
+`URL : localhost:8000/api/v1/product`
 
 ### Body
 
 ```json
+status code : 200
 {
     "total": 2,
     "products": [
@@ -28,13 +29,14 @@
 
 # API Product detail id 1
 
-> Method : GET
+`Method : GET`
 
-`localhost:8000/api/v1/product/1`
+`URL : localhost:8000/api/v1/product/1`
 
 ### Body
 
 ```json
+status code : 200
 {
     "id": 1,
     "product_name": "Balance Training Bicycle",
@@ -47,13 +49,14 @@
 
 # API Product detail id 2
 
-> Method : GET
+`Method : GET`
 
-`localhost:8000/api/v1/product/2`
+`URL : localhost:8000/api/v1/product/2`
 
 ### Body
 
 ```json
+status code : 200
 {
     "id": 2,
     "product_name": "43 Piece dinner Set",
@@ -66,9 +69,9 @@
 
 # API Order
 
-> Method : POST
+`Method : POST`
 
-`localhost:8000/api/v1/order`
+`URL : localhost:8000/api/v1/order`
 
 ### Body Request
 
@@ -94,6 +97,7 @@
 ### Body Response
 
 ```json
+status code : 200
 {
     "order_id": 8004359104,
     "total_price": 14.95
@@ -102,11 +106,12 @@
 
 # API Confirm payment
 
-> Method : POST
+`Method : POST`
 
-`localhost:8000/api/v1/confirmPayment`
+`URL : localhost:8000/api/v1/confirmPayment`
 
 ### Body Request
+
 ```json
 {
 	"order_id": 8004359104,
@@ -122,7 +127,9 @@
 ```
 
 ### Body Response
+
 ```json
+status code : 200
 {
     "notify_message": "วันเวลาที่ชำระเงิน 1/3/2020 13:30:00 หมายเลขคำสั่งซื้อ 8004359104 คุณสามารถติดตามสินค้าผ่านช่องทาง Kerry หมายเลข 1785261900"
 }
@@ -130,13 +137,14 @@
 
 # API Mock time (set date)
 
-> Method : GET
+`Method : GET`
 
-`localhost:8000/mockTime/01032020T13:30:00`
+`URL : localhost:8000/mockTime/01032020T13:30:00`
 
 ### Body Response
 
 ```json
+status code : 200
 {
     "fixTime": "2020-03-01T13:30:00Z",
     "status": "ok"

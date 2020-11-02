@@ -1,5 +1,7 @@
 # API Product list
 
+> Method : GET
+
 `localhost:8000/api/v1/product`
 
 ### Body
@@ -26,6 +28,8 @@
 
 # API Product detail id 1
 
+> Method : GET
+
 `localhost:8000/api/v1/product/1`
 
 ### Body
@@ -42,6 +46,8 @@
 ```
 
 # API Product detail id 2
+
+> Method : GET
 
 `localhost:8000/api/v1/product/2`
 
@@ -86,6 +92,7 @@
 ```
 
 ### Body Response
+
 ```json
 {
     "order_id": 8004359104,
@@ -123,9 +130,11 @@
 
 # API Mock time (set date)
 
+> Method : GET
+
 `localhost:8000/mockTime/01032020T13:30:00`
 
-### Body
+### Body Response
 
 ```json
 {

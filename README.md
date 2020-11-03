@@ -2,7 +2,7 @@
 
 `Method : GET`
 
-`URL : localhost:8000/api/v1/product`
+`URL : https://159.89.204.177/api/v1/product`
 
 ### Body
 
@@ -31,7 +31,13 @@ status code : 200
 
 `Method : GET`
 
-`URL : localhost:8000/api/v1/product/1`
+`URL : https://159.89.204.177/api/v1/product/1`
+
+### Header
+
+```json
+Accept : application/json
+```
 
 ### Body
 
@@ -51,7 +57,13 @@ status code : 200
 
 `Method : GET`
 
-`URL : localhost:8000/api/v1/product/2`
+`URL : https://159.89.204.177/api/v1/product/2`
+
+### Header
+
+```json
+Accept : application/json
+```
 
 ### Body
 
@@ -71,7 +83,13 @@ status code : 200
 
 `Method : POST`
 
-`URL : localhost:8000/api/v1/order`
+`URL : https://159.89.204.177/api/v1/order`
+
+### Header
+
+```json
+Accept : application/json
+```
 
 ### Body Request
 
@@ -108,7 +126,13 @@ status code : 200
 
 `Method : POST`
 
-`URL : localhost:8000/api/v1/confirmPayment`
+`URL : https://159.89.204.177/api/v1/confirmPayment`
+
+### Header
+
+```json
+Accept : application/json
+```
 
 ### Body Request
 
@@ -139,7 +163,7 @@ status code : 200
 
 `Method : GET`
 
-`URL : localhost:8000/mockTime/01032020T13:30:00`
+`URL : https://159.89.204.177/mockTime/01032020T13:30:00`
 
 ### Body Response
 

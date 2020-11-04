@@ -1,7 +1,11 @@
+# Local machine
+
+`URL : http://localhost:8000`
+
 # SIT
 
-`IP : https://159.89.204.177`
+`URL : https://159.89.204.177`
 
 # PRE-PROD
 
-`Domain name : https://www.dminer.in.th`
+`URL : https://www.dminer.in.th`
